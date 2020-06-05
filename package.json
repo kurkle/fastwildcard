@@ -1,0 +1,26 @@
+{
+  "name": "@kurkle/fastwildcard",
+  "version": "1.0.0",
+  "description": "Simple wildcard matching library",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.11.1",
+    "benchmark": "^2.1.4",
+    "eslint": "^7.7.0",
+    "eslint-plugin-ava": "^11.0.0",
+    "micromatch": "^4.0.2",
+    "nanomatch": "^1.2.13",
+    "picomatch": "^2.2.2"
+  }
+}

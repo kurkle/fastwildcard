@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parser": "espree",
+    "parserOptions": {
+        "ecmaVersion": 2015,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "ava"
+    ],
+	"extends": [
+		"eslint:recommended"
+	],
+    "rules": {
+        "semi": "error",
+        "no-undef": "error"
+    }
+}
